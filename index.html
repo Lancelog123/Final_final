@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Login Page | AsmrProg</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+               
+                
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Administrator</h1>
+                <h1>Sign In</h1>
+                
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                
+                <button type="button" onclick="window.location.href='tite.html';" 
+                        style="background-color: #45dfb1; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+                    Login
+                </button>
+            </form>
+            
+w            
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left" style="position: relative; text-align: center;">
+                    <img src="12.jpg" style="width: 180%;">
+                    <button id="login" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                        Login
+                    </button>
+                </div>
+            
+                <div class="toggle-panel toggle-right" >
+                    <img src="12.jpg" style="width: 100%;">
+                    <button id="register" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block;">
+                        Sign In
+                    </button>
+                </div>
+            </div>
+             
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
